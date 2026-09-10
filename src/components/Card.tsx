@@ -1,3 +1,4 @@
+import Content from "./Content";
 import Image from "./Image";
 
 const Card = () => {
@@ -7,6 +8,7 @@ const Card = () => {
       <Image />
 
       {/* Product Information */}
+      <Content />
     </article>
   );
 };
