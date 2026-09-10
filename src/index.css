@@ -2,7 +2,11 @@
 
 @import "tailwindcss";
 
-:root {
+@theme {
+  /* Fonts */
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-fraunces: "Fraunces", serif;
+
   /* Colors */
   --color-green-500: hsl(158, 36%, 37%);
   --color-green-700: hsl(158, 42%, 18%);
@@ -11,19 +15,4 @@
   --color-grey: hsl(228, 12%, 48%);
   --color-cream: hsl(30, 38%, 92%);
   --color-white: hsl(0, 0%, 100%);
-
-  /* Fonts */
-  --font-montserrat: "Montserrat", sans-serif;
-  --font-fraunces: "Fraunces", serif;
 }
-/* 
-.font-fraunces {
-  font-family: "Fraunces", serif;
-}
-.font-montserrat {
-  font-family: "Montserrat", sans-serif;
-}
-
-.text-xs {
-  font-size: 8px;
-} */
