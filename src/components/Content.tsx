@@ -1,11 +1,9 @@
-import React from "react";
-
 const Content = () => {
   return (
     <div>
-      <p>Perfume</p>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p>
+      <p className="font-montserrat">Perfume</p>
+      <h1 className="font-fraunces">Gabrielle Essence Eau De Parfum</h1>
+      <p className="font-montserrat">
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
